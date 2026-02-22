@@ -7,6 +7,7 @@
 > Bu doküman, Webdedik Bilişim Programı’nın temel kullanım adımlarını ve arayüz bileşenlerini açıklar.
 
 ![webdedik](https://www.webdedik.com/storage/uploads/images/e01-adli-dosya-gezgini-e01-forensic-file-explorer-1-e93c464d.webp)
+[![webdedik2](https://www.webdedik.com/storage/uploads/images/e01-adli-dosya-gezgini-e01-forensic-file-explorer-1-e93c464d.webp) 
 ---
 
 ## 📦 Gereksinimler
