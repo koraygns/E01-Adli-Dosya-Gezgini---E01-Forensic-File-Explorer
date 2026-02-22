@@ -1,0 +1,35 @@
+# E01 Adli Dosya Gezgini - Tüm Bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+# GUI
+PyQt6>=6.5.0
+
+# E01 imaj ve dosya sistemi
+libewf-python>=20240506
+pytsk3>=20221122
+
+# Thumbnail (resim)
+Pillow>=10.0.0
+
+# PDF
+PyMuPDF>=1.24.0
+
+# Word (.docx / .doc)
+python-docx>=1.1.0
+mammoth>=1.6.0
+
+# Excel (.xlsx / .xls)
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# PowerPoint (.pptx)
+python-pptx>=0.6.23
+
+# ODF (.odt, .ods, .odp)
+odfpy>=1.4.1
+
+# Eski Office OLE (.doc, .ppt)
+olefile>=0.46
+
+# GPS bölge adı (opsiyonel, EXIF için)
+reverse-geocode>=1.5.1

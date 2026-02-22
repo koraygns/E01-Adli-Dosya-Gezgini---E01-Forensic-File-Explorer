@@ -1,0 +1,9 @@
+[project]
+name = "forensic-axiom"
+version = "0.1.0"
+description = "AXIOM-like forensic engine (E01 reader, partitions, FS tree)"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=9.0.0",
+    "reverse-geocode>=1.6.0",
+]
