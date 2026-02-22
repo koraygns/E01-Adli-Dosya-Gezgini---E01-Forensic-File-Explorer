@@ -13,11 +13,22 @@
 * 🐍 **Python 3.11+**
 * 🎞 **ffmpeg** (video thumbnail ve önizleme için, sistem **PATH**’inde olmalı)
 
+klasör içerisinde third_party klasörü oluşturup
+ffmpeg tüm dosyalarını buraya aktarınız.
+
+python -m venv venv
+
+pip install -r requirements.txt
+
+venv\Scripts\activate
+
+python main.py
+
 ### 🔧 Bağımlılıklar
 
 ```bash
+pip install -r requirements.txt
 pip install -r requirements-documents.txt
-pip install -r requirements-thumbnail.txt
 ```
 
 ---
@@ -227,17 +238,3 @@ Sağ tarafta yer alan **Meta veri** sekmesi seçilen dosyaya ait detayları gös
 
 ---
 
-## 🖼 README’ye Resim Ekleme
-
-Repo içinde bir klasör oluşturun:
-
-```
-docs/images/
-```
-
-README içinde kullanımı:
-
-```md
-![Başlangıç Ekranı](docs/images/start-screen.png)
-![Ana Pencere](docs/images/main-window.png)
-```
