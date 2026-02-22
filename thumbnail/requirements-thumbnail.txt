@@ -1,0 +1,7 @@
+# Thumbnail: resim küçük önizleme
+# pip install -r thumbnail/requirements-thumbnail.txt
+
+Pillow>=10.0.0
+
+# Video thumbnail için ffmpeg PATH'te olmalı (Python paketi değil):
+# https://ffmpeg.org/download.html
